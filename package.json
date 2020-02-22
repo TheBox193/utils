@@ -1,0 +1,36 @@
+{
+  "name": "@thebox193/utils",
+  "version": "1.0.0",
+  "description": "JS Utils",
+  "main": "index.js",
+  "repository": "git@github.com:TheBox193/utils.git",
+  "author": "Jonathan Stassen <godlvall2jm@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-destructuring": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-jest": "^25.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "husky": "^4.2.3",
+    "jest": "^25.1.0",
+    "jest-watch-typeahead": "^0.4.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": ""
+    }
+  }
+}
